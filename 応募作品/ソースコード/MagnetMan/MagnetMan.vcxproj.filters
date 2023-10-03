@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4fff8a71-7526-44b1-9a62-8c9f2a99d82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Common">
+      <UniqueIdentifier>{51df2222-3538-4ed3-816d-659daf8dbf69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game">
+      <UniqueIdentifier>{8a77da0c-fdcb-4571-a9a4-61a40e3bff9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object">
+      <UniqueIdentifier>{0d437b4c-f9f4-495a-be2d-c360a530d5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Box">
+      <UniqueIdentifier>{707dfa48-af5f-496b-99af-4143fd49e4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Bullet">
+      <UniqueIdentifier>{b3678616-5097-4ad2-b3e9-77217f52158a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Camera">
+      <UniqueIdentifier>{595afb0f-7f93-4462-9c48-f3b85c4fafc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Base">
+      <UniqueIdentifier>{621cbe59-1a08-4905-a3d0-2acfc00c7ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Enemy">
+      <UniqueIdentifier>{26c7becc-ac22-4b8e-8067-5be5042e8be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles">
+      <UniqueIdentifier>{c5b36d34-bae3-4066-8de8-e3a0b9a90686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Player">
+      <UniqueIdentifier>{a09a1dfa-0dfd-482a-a552-cb2aefc14e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Collision">
+      <UniqueIdentifier>{70dc63ea-150e-4090-9e0e-5fcdd6f985ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Field">
+      <UniqueIdentifier>{c2fc6487-a5c2-4e85-be26-5670b9052ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\GameUI">
+      <UniqueIdentifier>{72dcbec7-18e3-42b2-beb0-08088aae4a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene">
+      <UniqueIdentifier>{2ed05799-cf94-4c20-a6f9-2d59e483ac8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Sky">
+      <UniqueIdentifier>{dbbb3607-013c-4082-a306-1f7fd869b5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Sound">
+      <UniqueIdentifier>{b559685b-862e-4509-b888-fbed554ef5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library">
+      <UniqueIdentifier>{d2068a68-18bb-44ff-b259-b6af97a37ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Fade">
+      <UniqueIdentifier>{a48cebc1-11cb-4b87-b9ba-b13982fc079c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Input">
+      <UniqueIdentifier>{86f118da-520c-4ccf-ba1b-0adabbc6bfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Math">
+      <UniqueIdentifier>{af7b8775-1c0f-4435-9363-5fd1dec320b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Matrix">
+      <UniqueIdentifier>{65e4e73c-abcf-4d1f-a163-9350c2eb4e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Singleton">
+      <UniqueIdentifier>{cda8671e-681e-4da6-a6d2-08b2fae56c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Vector">
+      <UniqueIdentifier>{a6187544-fb20-473e-86b8-6eacbe7e812f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene\Clear">
+      <UniqueIdentifier>{10e3596c-7105-46e1-991d-e6d985a8c829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene\Title">
+      <UniqueIdentifier>{ad20e213-e2d1-4c95-aca8-d60cefc4324a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene\Play">
+      <UniqueIdentifier>{91e36578-8bf5-4ce7-aad6-4fcb02ca75db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene\Base">
+      <UniqueIdentifier>{e4ccd6e2-da48-4712-9d49-f5b3a5d4b17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene\Manager">
+      <UniqueIdentifier>{71338f04-1388-4b0d-8c04-ab5c6482318e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Box\Base">
+      <UniqueIdentifier>{af8e9429-6a03-4e67-87af-43d091926812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Box\Manager">
+      <UniqueIdentifier>{7dea9a48-ec91-4818-af66-8d1b082893e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Box\Minus">
+      <UniqueIdentifier>{e9fcab6d-adfe-4d0a-b8a7-5e7727e7bc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Box\Normal">
+      <UniqueIdentifier>{e7ede11d-fdf9-45b6-b313-421986609f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Box\Plus">
+      <UniqueIdentifier>{dcccd59e-5033-4838-b1ec-6ac7c5678094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Bullet\Base">
+      <UniqueIdentifier>{b459a058-5106-4611-be46-a61c9c4b4a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Bullet\Manager">
+      <UniqueIdentifier>{e970bebc-86e8-4a7f-8a79-4dee855082ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Bullet\Minus">
+      <UniqueIdentifier>{f4f09259-6eb3-4bd3-8130-3066403ca3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Bullet\Plus">
+      <UniqueIdentifier>{7df2b12c-8369-4de9-8156-51e8b5da6295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Camera\Manager">
+      <UniqueIdentifier>{8273ad8e-2872-4dee-a51e-0e22dec763b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Camera\Debug">
+      <UniqueIdentifier>{045fd030-cfb4-4336-97e5-fd4f68543f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Camera\Play">
+      <UniqueIdentifier>{ff74b08d-15cb-4f41-babd-b7a850dcf117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Enemy\Base">
+      <UniqueIdentifier>{926ab08a-d565-4ce4-8b0f-73252dd7e0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Enemy\Manager">
+      <UniqueIdentifier>{67df96b1-5ee6-41a4-a693-33e3788697d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\Manager">
+      <UniqueIdentifier>{415019f6-7c55-4f13-b8ce-da354c0894be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\Goal">
+      <UniqueIdentifier>{61b84b54-bd8b-4ea8-9892-784458047a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\GravityPlate">
+      <UniqueIdentifier>{4f9138ee-01ff-4677-9210-de6770718921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\Lift">
+      <UniqueIdentifier>{888d144f-07d4-42de-b5e2-9378c541030d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\Long">
+      <UniqueIdentifier>{1d3722fa-4a75-4589-99bf-7be140adefdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\Base">
+      <UniqueIdentifier>{a4528815-668d-4cab-ab0a-71015570043d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Obstacles\Short">
+      <UniqueIdentifier>{19cad54a-c724-4cc2-9376-0d12a17c7a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Player\Manager">
+      <UniqueIdentifier>{d9a6f75b-1ca4-41f8-b9e2-5a2e5434f168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Object\Player\Base">
+      <UniqueIdentifier>{cf3e81c7-58be-45cb-8afd-ab397e041bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\GameUI\Base">
+      <UniqueIdentifier>{7b2ce02f-16b8-4a4d-b945-2d574f379189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\GameUI\Animation">
+      <UniqueIdentifier>{93b21059-1bd7-4435-bdc8-933770a3c4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\GameUI\Manager">
+      <UniqueIdentifier>{8240c097-c36c-4f33-8f96-591a0440780b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\GameUI\Sprite">
+      <UniqueIdentifier>{650a52f3-65cb-4657-adb5-c257376855ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Field\Base">
+      <UniqueIdentifier>{3bcc034c-d2b9-492c-bdf0-c8f5cf8d0c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Field\Manager">
+      <UniqueIdentifier>{382bc918-ac16-4f07-8e3a-8d95a4ecb5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Collision\Base">
+      <UniqueIdentifier>{c0a99b8e-6e92-4695-8f30-66d42d3cd951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Collision\Box">
+      <UniqueIdentifier>{0e18eb71-3f07-4395-b491-eac1377be143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Collision\Manager">
+      <UniqueIdentifier>{7bd8fb33-c14d-4201-8bb8-3727d20b326f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Collision\Sphere">
+      <UniqueIdentifier>{50210b23-4f3c-47e9-bb0e-4aa9194022b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Sound\Manager">
+      <UniqueIdentifier>{755e97f1-df10-43f0-8a98-ee4fb00bfee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Sky\Base">
+      <UniqueIdentifier>{372a9a33-2875-4794-bd33-22883215531f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Sky\Manager">
+      <UniqueIdentifier>{1431b0b2-d9aa-48d2-b685-b4eb7bca54eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Input\Base">
+      <UniqueIdentifier>{3ff1655c-3b3a-4f65-8a5d-ea52d363ac55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Input\Manager">
+      <UniqueIdentifier>{5dc79491-6624-4f04-afcd-9b039e582d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Input\KeyBoard">
+      <UniqueIdentifier>{e34cde2b-ca12-4195-8694-469d02431d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Input\Mouse">
+      <UniqueIdentifier>{107b3050-8815-42f5-a625-868e4e6f5cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Input\Pad">
+      <UniqueIdentifier>{0200b1a4-7fdf-46e4-881c-8011daa9129c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Library\Primitive">
+      <UniqueIdentifier>{04554500-c20d-4005-97c4-efdff7c969d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Game\Scene\GameOver">
+      <UniqueIdentifier>{34ec0d15-5e74-4256-a420-924e31f0a6ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Common\Common.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Object.cpp">
+      <Filter>Src\Game\Object\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Fade\Fade.cpp">
+      <Filter>Src\Library\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Math\MyMath.cpp">
+      <Filter>Src\Library\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\ClearScene.cpp">
+      <Filter>Src\Game\Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\TitleScene.cpp">
+      <Filter>Src\Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\PlayScene.cpp">
+      <Filter>Src\Game\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\Scene.cpp">
+      <Filter>Src\Game\Scene\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\SceneManager.cpp">
+      <Filter>Src\Game\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Box\Box.cpp">
+      <Filter>Src\Game\Object\Box\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Box\BoxManager.cpp">
+      <Filter>Src\Game\Object\Box\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Box\MinusBox.cpp">
+      <Filter>Src\Game\Object\Box\Minus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Box\Normalbox.cpp">
+      <Filter>Src\Game\Object\Box\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Box\PlusBox.cpp">
+      <Filter>Src\Game\Object\Box\Plus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Bullet\Bullet.cpp">
+      <Filter>Src\Game\Object\Bullet\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Bullet\BulletManager.cpp">
+      <Filter>Src\Game\Object\Bullet\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Bullet\MinusBullet.cpp">
+      <Filter>Src\Game\Object\Bullet\Minus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Bullet\PlusBullet.cpp">
+      <Filter>Src\Game\Object\Bullet\Plus</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Camera\CameraManager.cpp">
+      <Filter>Src\Game\Object\Camera\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Camera\DebugCamera.cpp">
+      <Filter>Src\Game\Object\Camera\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Camera\PlayCamera.cpp">
+      <Filter>Src\Game\Object\Camera\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Enemy\Enemy.cpp">
+      <Filter>Src\Game\Object\Enemy\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Enemy\EnemyManager.cpp">
+      <Filter>Src\Game\Object\Enemy\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\ObstaclesManager.cpp">
+      <Filter>Src\Game\Object\Obstacles\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\Goal.cpp">
+      <Filter>Src\Game\Object\Obstacles\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\GravityPlate.cpp">
+      <Filter>Src\Game\Object\Obstacles\GravityPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\Lift.cpp">
+      <Filter>Src\Game\Object\Obstacles\Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\Long.cpp">
+      <Filter>Src\Game\Object\Obstacles\Long</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\Obstacles.cpp">
+      <Filter>Src\Game\Object\Obstacles\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\Short.cpp">
+      <Filter>Src\Game\Object\Obstacles\Short</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Player\PlayerManager.cpp">
+      <Filter>Src\Game\Object\Player\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Player\Player.cpp">
+      <Filter>Src\Game\Object\Player\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\GameUI\GameUI.cpp">
+      <Filter>Src\Game\GameUI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\GameUI\GameUIAnimation.cpp">
+      <Filter>Src\Game\GameUI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\GameUI\GameUIManager.cpp">
+      <Filter>Src\Game\GameUI\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\GameUI\GameUISprite.cpp">
+      <Filter>Src\Game\GameUI\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Field\Field.cpp">
+      <Filter>Src\Game\Field\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Field\FieldManager.cpp">
+      <Filter>Src\Game\Field\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Collision\Collision.cpp">
+      <Filter>Src\Game\Collision\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Collision\BoxCollision.cpp">
+      <Filter>Src\Game\Collision\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Collision\CollisionManager.cpp">
+      <Filter>Src\Game\Collision\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Collision\SphereCollision.cpp">
+      <Filter>Src\Game\Collision\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Sound\SoundManager.cpp">
+      <Filter>Src\Game\Sound\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Sky\Sky.cpp">
+      <Filter>Src\Game\Sky\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Sky\SkyManager.cpp">
+      <Filter>Src\Game\Sky\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Input\Input.cpp">
+      <Filter>Src\Library\Input\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Input\InputManager.cpp">
+      <Filter>Src\Library\Input\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Input\KeyInput.cpp">
+      <Filter>Src\Library\Input\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Input\MouseInput.cpp">
+      <Filter>Src\Library\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Library\Input\PadInput.cpp">
+      <Filter>Src\Library\Input\Pad</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Scene\GameOverScene.cpp">
+      <Filter>Src\Game\Scene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Game\Object\Obstacles\Goal2.cpp">
+      <Filter>Src\Game\Object\Obstacles\Goal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Common\Common.h">
+      <Filter>Src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Box\BoxParameter.h">
+      <Filter>Src\Game\Object\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Bullet\BulletParameter.h">
+      <Filter>Src\Game\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Object.h">
+      <Filter>Src\Game\Object\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Collision\CollisionParameter.h">
+      <Filter>Src\Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Enemy\EnemyParameter.h">
+      <Filter>Src\Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Fade\Fade.h">
+      <Filter>Src\Library\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\GameUI\GameUIParameter.h">
+      <Filter>Src\Game\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\GameInputParameter.h">
+      <Filter>Src\Library\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\InputParameter.h">
+      <Filter>Src\Library\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Math\Math.h">
+      <Filter>Src\Library\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Math\MyMath.h">
+      <Filter>Src\Library\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Matrix\Matrix.h">
+      <Filter>Src\Library\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\ObstaclesParameter.h">
+      <Filter>Src\Game\Object\Obstacles</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Player\PlayerParameterh.h">
+      <Filter>Src\Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\SceneParameter.h">
+      <Filter>Src\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Singleton\Singleton.h">
+      <Filter>Src\Library\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Sky\SkyParameter.h">
+      <Filter>Src\Game\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Sound\SoundParameter.h">
+      <Filter>Src\Game\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Vector\MyLibData.h">
+      <Filter>Src\Library\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Vector\Vector2D.h">
+      <Filter>Src\Library\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Vector\Vector3D.h">
+      <Filter>Src\Library\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\ClearScene.h">
+      <Filter>Src\Game\Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\TitleScene.h">
+      <Filter>Src\Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\PlayScene.h">
+      <Filter>Src\Game\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\Scene.h">
+      <Filter>Src\Game\Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\SceneManager.h">
+      <Filter>Src\Game\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Box\Box.h">
+      <Filter>Src\Game\Object\Box\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Box\BoxManager.h">
+      <Filter>Src\Game\Object\Box\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Box\MinusBox.h">
+      <Filter>Src\Game\Object\Box\Minus</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Box\Normalbox.h">
+      <Filter>Src\Game\Object\Box\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Box\PlusBox.h">
+      <Filter>Src\Game\Object\Box\Plus</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Bullet\Bullet.h">
+      <Filter>Src\Game\Object\Bullet\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Bullet\BulletManager.h">
+      <Filter>Src\Game\Object\Bullet\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Bullet\MinusBullet.h">
+      <Filter>Src\Game\Object\Bullet\Minus</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Bullet\PlusBullet.h">
+      <Filter>Src\Game\Object\Bullet\Plus</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Camera\CameraManager.h">
+      <Filter>Src\Game\Object\Camera\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Camera\DebugCamera.h">
+      <Filter>Src\Game\Object\Camera\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Camera\PlayCamera.h">
+      <Filter>Src\Game\Object\Camera\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Enemy\Enemy.h">
+      <Filter>Src\Game\Object\Enemy\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Enemy\EnemyManager.h">
+      <Filter>Src\Game\Object\Enemy\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\ObstaclesManager.h">
+      <Filter>Src\Game\Object\Obstacles\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\Goal.h">
+      <Filter>Src\Game\Object\Obstacles\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\GravityPlate.h">
+      <Filter>Src\Game\Object\Obstacles\GravityPlate</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\Lift.h">
+      <Filter>Src\Game\Object\Obstacles\Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\Long.h">
+      <Filter>Src\Game\Object\Obstacles\Long</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\Obstacles.h">
+      <Filter>Src\Game\Object\Obstacles\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\Short.h">
+      <Filter>Src\Game\Object\Obstacles\Short</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Player\PlayerManager.h">
+      <Filter>Src\Game\Object\Player\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Player\Player.h">
+      <Filter>Src\Game\Object\Player\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\GameUI\GameUI.h">
+      <Filter>Src\Game\GameUI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\GameUI\GameUIAnimation.h">
+      <Filter>Src\Game\GameUI\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\GameUI\GameUIManager.h">
+      <Filter>Src\Game\GameUI\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\GameUI\GameUISprite.h">
+      <Filter>Src\Game\GameUI\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Field\Field.h">
+      <Filter>Src\Game\Field\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Field\FieldManager.h">
+      <Filter>Src\Game\Field\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Collision\Collision.h">
+      <Filter>Src\Game\Collision\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Collision\BoxCollision.h">
+      <Filter>Src\Game\Collision\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Collision\CollisionManager.h">
+      <Filter>Src\Game\Collision\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Collision\SphereCollision.h">
+      <Filter>Src\Game\Collision\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Sound\SoundManager.h">
+      <Filter>Src\Game\Sound\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\ObjectParameter.h">
+      <Filter>Src\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Sky\Sky.h">
+      <Filter>Src\Game\Sky\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Sky\SkyManager.h">
+      <Filter>Src\Game\Sky\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\Input.h">
+      <Filter>Src\Library\Input\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\InputManager.h">
+      <Filter>Src\Library\Input\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\KeyInput.h">
+      <Filter>Src\Library\Input\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\MouseInput.h">
+      <Filter>Src\Library\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Input\PadInput.h">
+      <Filter>Src\Library\Input\Pad</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Library\Primitive\Primitive.h">
+      <Filter>Src\Library\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Scene\GameOverScene.h">
+      <Filter>Src\Game\Scene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Field\FieldParameterh.h">
+      <Filter>Src\Game\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Game\Object\Obstacles\Goal2.h">
+      <Filter>Src\Game\Object\Obstacles\Goal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
